@@ -1,2 +1,2 @@
 clean:
-	rm *.log *.aux
+	rm *.log *.aux *.toc *.out
