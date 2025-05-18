@@ -2,10 +2,20 @@
 
 To run the notes you need `texlive`.
 
-`* pdflatex notes.tex`
+```
+* pdflatex notes.tex
+```
+* MacOS
+```
+* brew install texlive
+```
 
-`brew install texlive` in macOS.
+* Arch linux
+```
+sudo pacman -S texlive
+```
 
-`sudo pacman -S texlive` in an arch linux.
-
-`sudo apt-get install texlive-full` in debian.
+* Debian
+```
+sudo apt-get install texlive-full
+```
