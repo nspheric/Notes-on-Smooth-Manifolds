@@ -1,10 +1,11 @@
 \documentclass{article}
 \usepackage{amsmath, amsthm}
+\usepackage{listings}
+\usepackage{xcolor}
 
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{proposition}[theorem]{Proposition}
 \newtheorem{example}[theorem]{Example}
-
 \title{Notes on Smooth Manifolds}
 \author{Job Hernandez Lara}
 \date{}
@@ -64,6 +65,23 @@ by letting  $ U \subseteq  S $. Then the following statements are true.
 \item If for an open subset of $ V \subseteq X $, $ U =  V \cup  S $ then  $ U $ is open in $ S $.
 \end{enumerate}
 
+\section{Topological Manifolds}
+
+Topological Manifolds are topological spaces with a given structure that makes behave like Euclidian space i.e., $ R^n $.
+
+Essentially, this structure will allows use to do calculus on smooth manifolds because it allows to make coordinate patches.
+
+If a topological space $ X $ is a topological manifold then the following statements are true.
+
+\begin{enumerate}
+\item $ X $ is a Hausdorff space.
+\item $ X $ is second countable.
+\item $ X $ looks locally like Euclidian.
+\end{enumerate}
+
+If a space $ X $ is second countable then $ X $ has a countable basis. If a space $ X $ has a countable basis then there exists a set $ B $ $ U_{i}, U_{i+1}, U_{n} $ of neighborhood basis for each point $ p \in U_{n} $ and each $ U_{n} $ contains at least one element of $ B $.
+
+Here, `` $ U $ is neighborhood of x`` means that ``$ U $ is an open set containing $ x $.
 %\begin{proposition}
 %\end{proposition}
 
